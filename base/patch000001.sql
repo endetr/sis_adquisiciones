@@ -1005,3 +1005,19 @@ CREATE TABLE adq.tinvitacion_base (
 ) INHERITS (pxp.tbase)
 WITH (oids = false);
 /***********************************F-SCP-EGS-ADQ-4-27/12/2019****************************************/
+/***********************************I-SCP-VAN-ADQ-4-27/12/2019****************************************/
+create table adq.ttipo_dato_extra
+(
+    id_tipo_dato_extra serial,
+    codigo             varchar(150),
+    tabla              varchar(150),
+    nombre             varchar(150),
+    descripcion        varchar(500),
+    ayuda              varchar(300),
+    tipo_dato          varchar(50),
+    tipo               varchar(20)
+) inherits (pxp.tbase);
+
+create unique index ttipo_dato_extra_codigo_uindex
+    on adq.ttipo_dato_extra (codigo);
+/***********************************F-SCP-VAN-ADQ-4-27/12/2019****************************************/

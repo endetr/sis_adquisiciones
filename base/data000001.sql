@@ -1015,3 +1015,6 @@ select wf.f_import_testructura_estado ('insert','asignado','finalizado','PRESOL'
 /***********************************I-DAT-EGS-ADQ-2-13/09/2019*****************************************/
 select pxp.f_insert_tgui ('Proveedores', 'Proveedores de compra', 'ADQ.4', 'si', 2, 'sis_adquisiciones/vista/proveedor/ProveedorAdq.php', 2, '', 'ProveedorAdq', 'ADQ');
 /***********************************F-DAT-EGS-ADQ-2-13/09/2019*****************************************/
+/***********************************I-DAT-EGS-ADQ-3-27/12/2019*****************************************/
+select pxp.f_insert_tgui ('Invitaciones', 'Invitaciones', 'INVB', 'si', 3, 'sis_adquisiciones/vista/invitacion_base/InvitacionBase.php', 2, '', 'InvitacionBase', 'ADQ');
+/***********************************F-DAT-EGS-ADQ-3-27/12/2019*****************************************/

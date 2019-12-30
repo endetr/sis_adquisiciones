@@ -995,4 +995,13 @@ ALTER TABLE adq.tcotizacion_det
   ALTER COLUMN cantidad_adju TYPE NUMERIC(19,2);
 
 /***********************************F-SCP-EGS-ADQ-3-28/08/2019****************************************/
-
+/***********************************I-SCP-EGS-ADQ-4-27/12/2019****************************************/
+CREATE TABLE adq.tinvitacion_base (
+  id_invitacion_base SERIAL,
+  codigo VARCHAR,
+  descripcion VARCHAR,
+  fecha_est DATE,
+  CONSTRAINT tinvitacion_base_pkey PRIMARY KEY(id_invitacion_base)
+) INHERITS (pxp.tbase)
+WITH (oids = false);
+/***********************************F-SCP-EGS-ADQ-4-27/12/2019****************************************/

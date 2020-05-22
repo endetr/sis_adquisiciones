@@ -1020,4 +1020,8 @@ select pxp.f_insert_tgui ('Invitaciones', 'Invitaciones', 'INVB', 'si', 3, 'sis_
 /***********************************F-DAT-EGS-ADQ-3-27/12/2019*****************************************/
 /***********************************I-DAT-VAN-ADQ-3-27/12/2019*****************************************/
 select pxp.f_insert_tgui ('Tipo Dato Extra', 'Datos extras para una Solicitud de Compra', 'ADQTDE', 'si', 1, 'sis_adquisiciones/vista/tipo_dato_extra/TipoDatoExtra.php', 3, '', 'TipoDatoExtra', 'ADQ');
-/***********************************F-DAT-EGS-ADQ-2-27/12/2019*****************************************/
+/***********************************F-DAT-VAN-ADQ-3-27/12/2019*****************************************/
+/***********************************I-DAT-EGS-ADQ-3-11/03/2020*****************************************/
+select pxp.f_insert_tgui ('Reporte Pagos', 'Reporte Pagos', 'REPPAG', 'si', 2, 'sis_adquisiciones/vista/reporte_pago/FormFiltro.php', 3, '', 'FormFiltro', 'ADQ');
+select pxp.f_insert_tgui ('Cotizaciones/Ordenes', 'Cotizaciones y Ordenes de Compra', 'COTOC', 'si', 10, 'sis_adquisiciones/vista/reporte_cotizacion/FormFiltro.php', 2, '', 'FormFiltro', 'ADQ');
+/***********************************F-DAT-EGS-ADQ-3-11/03/2020*****************************************/
